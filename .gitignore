@@ -1,0 +1,29 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+
+# VS Code
+.vscode/
+
+# Streamlit Secrets
+.streamlit/secrets.toml
+
+# Cache
+.cache/
+
+# FAISS
+*.faiss
+*.pkl
+
+# Temporary files
+temp/
+chat_history/
+
+# OS files
+.DS_Store
+Thumbs.db
