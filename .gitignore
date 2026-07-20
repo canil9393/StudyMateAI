@@ -24,6 +24,6 @@ __pycache__/
 temp/
 chat_history/
 
-# OS files
+# OS fileS
 .DS_Store
 Thumbs.db

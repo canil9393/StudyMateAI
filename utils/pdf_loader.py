@@ -1,5 +1,5 @@
 import os
-from PyPDF2 import PdfReader
+from PyPDF import PdfReader
 
 
 def save_uploaded_file(uploaded_file):
