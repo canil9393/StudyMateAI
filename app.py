@@ -134,7 +134,11 @@ if process:
 
     st.subheader("Preview")
 
-    st.text(documents[0]["page_content"][:1200])
+    if len(documents) > 0:
+        st.text(documents[0]["page_content"][:1200])
+    else:
+         st.warning("No readable text found in the uploaded PDFs.")
+         st.stop()
 
     # ---------------- Chunking ----------------
 
